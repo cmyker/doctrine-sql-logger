@@ -1,0 +1,24 @@
+{
+    "name": "cmyker/doctrine-sql-logger",
+    "description": "Doctrine SQL query debugger with binded parameters",
+    "keywords": ["doctrine", "sql", "logger"],
+    "homepage": "http://www.github.com/cmyker/doctrine-sql-logger",
+    "license": "GNU-GPL",
+    "authors": [
+        {
+            "name": "Igor Prokopenkov",
+            "email": "cmyk777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/dbal": "~2.2"
+    },
+        "autoload": {"psr-0": { "Cmyker\\DoctrineSqlLogger": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
