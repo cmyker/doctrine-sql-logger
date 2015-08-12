@@ -1,11 +1,11 @@
 # doctrine-sql-logger
 Debug Doctrine 2 real SQL queries with parameters
 
-Installation
+## Installation
 
 composer require cmyker/doctrine-sql-logger:dev-master
 
-Usage example
+## Usage example
 
 $connection = $this->getEntityManager()->getConnection();
 $connection->getConfiguration()->setSQLLogger(new \Cmyker\DoctrineSqlLogger\Logger($connection));
