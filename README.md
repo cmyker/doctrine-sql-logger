@@ -12,7 +12,7 @@ $connection = $this->getEntityManager()->getConnection();
 $logger = new \Cmyker\DoctrineSqlLogger\Logger($connection);
 $connection->getConfiguration()->setSQLLogger($logger);
 //some query here
-echo $logger->lastQuery; //or see the output
+$monologLogger->debug($logger->lastQuery); //or see the output
 ```
 
 TODO more details
